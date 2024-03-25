@@ -7,3 +7,18 @@ function numeroRandom() {
 }
 
 module.exports = numeroRandom;
+
+function mayorYMenor(num){
+  if (num > 5 && num < 10) console.log(true);
+  else console.log(false);
+};
+
+mayorYMenor(4);
+mayorYMenor(8);
+
+function mayorYPar(str){
+if (str =="Sergio" || str.length < 3 ) console.log(true);
+else console.log(false);
+};
+
+mayorYPar("Sergio");
